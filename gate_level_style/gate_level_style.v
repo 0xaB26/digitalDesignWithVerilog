@@ -1,17 +1,10 @@
-// TOGGLING OUTPUT BASED ON THE INPUT 
-// SIMPLE CIRCUIT FOR LEARNING PURPOSES
+module system(a, b, c, d, g);
+	input wire a, b, c, d;
+	output wire g;
+	wire e, f;
 
-module system(pin, out, reset);
-	input wire pin;
-	output reg out;
-	input wire reset;
+and(e, a, b);
+xor(f, c, d);
+or(g, f, e);
 
-	always @(posedge pin, posedge reset) begin
-		if(reset) begin
-			out = 0;
-		end
-		else if(pin) begin
-			out = ~out;
-		end
-	end
 endmodule

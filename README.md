@@ -5,5 +5,5 @@ Verilog supports three modelling styles that allow you to design different circu
 Verilog has similar C-syntax and Verilog is a concurrent language, different than a “procedural” language like C or Java(statements are executed in parallel).
 
 #### 2)-Tools and Simulators : 
-ModelSim and Quartus prime are used to test and verify and simulate hdl codes(they support systemVerilog, VHDL, systemC ...).
+ModelSim and Quartus prime are used to test and verify and simulate HDL codes(they support systemVerilog, VHDL, systemC ...).
 

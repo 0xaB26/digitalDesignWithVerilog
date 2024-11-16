@@ -1,5 +1,5 @@
 ### DIGITAL DESIGN WITH VERILOG :
-##### 1)-A brief overview about verilog : 
+#### 1)-A brief overview about verilog : 
 Verilog is a hardware description language used to model digital circuits.
 Verilog supports three modelling styles that allow you to design different circuits with different philosophie(behavrioural, structural and dataflow).
 Usa uses verilog and europe uses vhdl.
